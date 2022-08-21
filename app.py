@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sun May  8 21:01:15 2022
 
-@author: siddhardhan
-"""
 
 import pickle
 import streamlit as st
@@ -22,7 +18,7 @@ heart_disease_model = pickle.load(open('heart_disease_model.sav', 'rb'))
 # sidebar for navigation
 with st.sidebar:
     
-    selected = option_menu('Disease Prediction System',
+    selected = option_menu('My Project',
                           
                           [
                            'Heart Disease Prediction'
